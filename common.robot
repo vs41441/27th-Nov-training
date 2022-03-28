@@ -37,6 +37,9 @@ Home
     ClickText             Home
     VerifyTitle           Home | Salesforce
 
+Sales App
+    [Documentation]        Navigate to the Sales App
+    LaunchApp              Sales
 
 # Example of custom keyword with robot fw syntax
 VerifyStage
