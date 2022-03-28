@@ -65,6 +65,7 @@ Create StartupABC Account
     Appstate                  Sales App
     ClickText                 Accounts
     ClickText                    New
+    UseModal                     On
     ClickText                    Account Name
     TypeText                     Account Name            StartupABC
     ClickText                    Phone
@@ -76,6 +77,8 @@ Create StartupABC Account
     ClickText                    Banking
     ClickText                    Employees
     TypeText                     Employees               100
+    ClickElement                 //*[@name\="SaveEdit"]
+    UseModal                     Off
 
     VerifyText                   StartupABC
     VerifyText                   Banking                 anchor=Industry
