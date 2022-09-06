@@ -51,24 +51,3 @@ VerifyStage
 NoData
     VerifyNoText          ${data}                     timeout=3                        delay=2
 
-
-DeleteAccounts
-    [Documentation]       RunBlock to remove all data until it doesn't exist anymore
-    ClickText             ${data}
-    ClickText             Delete
-    VerifyText            Are you sure you want to delete this account?
-    ClickText             Delete                      2
-    VerifyText            Undo
-    VerifyNoText          Undo
-    ClickText             Accounts                    partial_match=False
-
-
-DeleteLeads
-    [Documentation]       RunBlock to remove all data until it doesn't exist anymore
-    ClickText             ${data}
-    ClickText             Delete
-    VerifyText            Are you sure you want to delete this lead?
-    ClickText             Delete                      2
-    VerifyText            Undo
-    VerifyNoText          Undo
-    ClickText             Leads                    partial_match=False
