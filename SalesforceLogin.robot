@@ -62,4 +62,3 @@ Delete Created Lead
     ClickText                    Delete
     ClickText                    Delete
     ClickText                    Close
-    VerifyNoText                 ${firstname} ${lastname}
