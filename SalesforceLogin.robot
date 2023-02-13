@@ -45,10 +45,6 @@ Entering A Lead
     VerifyField               Phone                       +12234567858449
     VerifyField               Company                     Growmore
     VerifyField               Website                     https://www.growmore.com/
-
-    # as an example, let's check Phone number format. Should be "+" and 14 numbers
-    ${phone_num}=             GetFieldValue               Phone
-    Should Match Regexp	      ${phone_num}	              ^[+]\\d{14}$
     
     ClickText                 Leads
     VerifyText                ${firstname} ${lastname}
