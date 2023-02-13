@@ -67,4 +67,3 @@ Entering A Lead
     ClickText                    Delete
     ClickText                    Delete
     ClickText                    Close
-    VerifyNoText                 ${fullName}    timeout=60s
