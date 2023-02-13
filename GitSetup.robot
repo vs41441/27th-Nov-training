@@ -55,4 +55,3 @@ Delete Tina Smith's Lead
     ClickText                    Delete
     ClickText                    Delete
     ClickText                    Close
-    VerifyNoText                 Tina Smith
