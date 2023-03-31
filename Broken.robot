@@ -22,7 +22,7 @@ Check the navigation menu items
 
 Shop for products
     [Tags]              Broken
-    [Documentation]     Select the ONLY "Sacha the Deer" product to add to cart and confirm that it is in the cart, then verify details on the page,
+    [Documentation]     Select ONLY the "Sacha the Deer" product to add to cart and confirm that it is in the cart, then verify details on the page,
     ...                 add the product to the cart and continue shopping.
     GoTo                https://qentinelqi.github.io/shop/
     ClickText           Sacha the Deer
